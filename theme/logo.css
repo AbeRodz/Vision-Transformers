@@ -1,0 +1,14 @@
+/* CSS to position the logo container */
+#logo-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+/* Optional styling for the logo image */
+#logo-container img {
+
+    max-width: 300px; /* Adjust max-width for your logo size */
+    max-height: 200px; /* Maintain aspect ratio */
+}
